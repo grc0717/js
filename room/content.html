@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>内容页</title>
+	<link rel="stylesheet" href="css/content.css">
+
+	<!-- Font Awesome字体图标应用 -->
+	<link rel="stylesheet" href="Font-Awesome-3.2.1/css/font-awesome.min.css">
+
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/script.js"></script>
+
+</head>
+<body>
+	<!-- 顶部 -->
+	<div id="head">
+		<div class="h_logo">
+			<a href="javascript:void(0)">Combanc</a>
+		</div>
+		<div class="h_nav">
+			<ul class="nav_zhu">
+				<li>
+					<a href="#">
+						<span class="icon-home"></span>首页
+					</a>
+				</li>
+				<li class="active">
+					<a href="#">
+						<span class=" icon-reorder"></span>内容
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span class="icon-file-alt"></span>表单
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span class="icon-wrench"></span>功能
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span class="icon-dashboard"></span>系统
+					</a>
+				</li>
+			</ul>
+
+			<ul class="nav_you">
+				<li>
+					<a href="#">
+						<span class="icon-home"></span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span class=" icon-user"></span>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="close">
+						<span class=" icon-off"></span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="clr"></div>
+	</div>
+
+	<!-- 左侧导航栏 -->
+	<div id="leftnav">
+		<ul>
+			<div class="curr_page">内容</div>
+			<li class="active">
+				<a href="#">
+					<span class="icon-sitemap"></span>栏目管理
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span class="icon-reorder"></span>文章管理
+				</a>
+			</li>
+		</ul>
+	</div>
+	
+	<!-- 面包屑 -->
+	<div id="bread">
+		<ul>
+			<li>
+				<a href="#"><span class="icon-home"></span>开始</a>
+			</li>
+			<li>
+				<a href="#"><span></span>栏目列表</a>
+			</li>
+		</ul>
+	</div>
+
+	<!-- admin -->
+	<div id="admin">
+		<div class="a_tools">
+			<div class="bread-head">
+				栏目管理
+				<span class="small">
+					管理网站全部栏目
+				</span>
+			</div>
+			<br>
+			<div class="lanmu-list">
+				<!-- 左侧列表按钮 -->
+				<div class="left-btn">
+					<a href="#" class="btn bg-main btn-small ">
+						<span class="icon-list" style="margin-right:5px;"></span>栏目列表
+					</a>
+				</div>
+				<div class="right-btn">
+					<a href="#" class="btn btn-small bg-dot tianjia">
+						<span class=" icon-plus" style="margin-right:"></span>
+						添加
+						<span class="xiasanjiao"></span>
+					</a>
+					<ul class="drop-menu">
+						<li>
+							<a href="#">
+								添加文章栏目
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								添加页面栏目
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="clr"></div>
+		</div>
+		<br>
+		<form action="" method="POST">
+			<div class="panel dux-box">
+				<div class="table-responsive">
+					<table id="table" class="table table-hover">
+						<tr>
+							<th width="100">编号</th>
+							<th>名称</th>
+							<th>类型</th>
+							<th>排序</th>
+							<th width="100">操作</th>
+						</tr>
+
+						<tr>
+	                        <td>2</td>
+	                        <td>
+	                        	<a href="#">课程信息</a>
+	                        </td>
+	                        <td>文章</td>
+	                        <td>1</td>
+	                        <td>
+	                            <a href="#" title="修改" class="btn btn-small bg-blue">
+	                            	<span class=" icon-pencil" style="color:#fff;"></span>
+	                            </a>
+	                            <a class="btn bg-red btn-small" href="#" title="删除">
+	                            	<span class=" icon-trash" style="color:#fff;"></span>
+	                            </a>
+	                        </td>
+                    </tr>
+					</table>
+				</div>
+			</div>
+		</form>
+	</div>
+</body>
+</html>
